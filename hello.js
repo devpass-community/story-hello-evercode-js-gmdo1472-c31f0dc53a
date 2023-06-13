@@ -1,5 +1,5 @@
 function hello(str) {
-    return `Hello,  ${str}!`.replace(/[,!]/g, '')
+    return `Hello  ${str}`
 };
 
 module.exports = hello;
