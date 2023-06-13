@@ -1,7 +1,8 @@
-const helloMessage = require('../hello')
+const hello = require('../hello')
 
 it('text string', () => {
     const name = 'Evercode'
-    expect(helloMessage(name)).toBe('Hello, Evercode!')
+    const result = hello(name)
+    expect(result).toBe('Hello, Evercode!')
 })
 
