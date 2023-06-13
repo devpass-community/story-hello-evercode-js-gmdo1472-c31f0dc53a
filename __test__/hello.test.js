@@ -1,7 +1,7 @@
 const helloMessage = require('../hello')
 
 it('text string', () => {
-    const name = 'Evercode!'
+    const name = 'Evercode'
     expect(helloMessage(name)).toEqual('Hello,  Evercode!')
 })
 
